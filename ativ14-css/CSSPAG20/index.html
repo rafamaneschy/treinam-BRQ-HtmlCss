@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.brq.com/" target="_blank" rel="Site Ooficial BRQ">
+        <img src="img/logo-brq.png" alt="Logo logo-brq" width=20%>
+        </a>
+    </header>
+    <main>
+        <div class="container">            
+            <h1 id="title" class="page-title">Cadastro BRQ Developers</h1>
+                           
+            <form id="form">
+                <div class="form-dev">
+                  <label id="name" for="name">Nome</label>
+                  <input type="text" name="name" id="name" class="form-level" placeholder="Insira seu nome" required />
+                </div>
+
+                <div class="form-dev">
+                  <label id="name" for="name">Sobrenome</label>
+                  <input type="text" name="name" id="name" class="form-level" placeholder="Insira seu sobrenome" required />
+                </div>
+
+                <div class="form-dev">
+                  <label id="email" for="email">E-mail</label>
+                  <input type="email" name="email" id="email" class="form-level" placeholder="Insira seu e-mail" required />
+                </div>
+
+                <div class="form-dev">
+                  <p>Qual sua especialidade?</p>
+                  <label>
+                    <input name="option" value="development-area" type="radio" class="input-radio" checked />Front-end</label>
+                  <label>
+                    <input name="option" value="development-area" type="radio" class="input-radio" />Back-end</label>
+                  <label>
+                    <input name="option" value="development-area" type="radio" class="input-radio" />Fullstack</label>
+                </div>
+
+                <div class="form-dev">
+                  <p>Senioridade</p>
+                  <select id="seniority-level" name="seniorityLevel" class="form-level" required>
+                    <option disabled selected value>Selecione</option>
+                    <option value="junior-level">Júnior</option>
+                    <option value="middle-level">Pleno</option>
+                    <option value="senior-level">Sênior</option>
+                    </select>
+                </div>
+
+                <div class="form-dev">
+                  <p>Selecione as tecnologias que você tem conhecimento:</p>
+                  <label id="languages">
+                    <input name="html" value="language" type="checkbox" class="input-checkbox" />HTML</label>
+                  <label id="languages">
+                    <input name="css" value="language" type="checkbox" class="input-checkbox" />CSS</label>
+                  <label id="languages">
+                    <input name="javascript" value="language" type="checkbox" class="input-checkbox" />JavaScript</label>
+                  <label id="languages">
+                    <input name="php" value="language" type="checkbox" class="input-checkbox" />PHP</label>
+                  <label id="languages">
+                    <input name="c#" value="language" type="checkbox" class="input-checkbox" />C#</label>
+                  <label id="languages">
+                    <input name="java" value="language" type="checkbox" class="input-checkbox" />Java</label>
+                </div>
+
+                <div class="form-dev">
+                  <p>Conte um pouco mais sobre sua experiência:</p>
+                  <textarea id="comments" class="input-textarea" name="comment"></textarea>
+                </div>
+
+                <div class="form-dev">
+                  <button type="submit" id="submit" class="submit-button">
+                    Concluído
+                  </button>
+                </div>
+                
+                <div class="form-dev">
+                    <button type="reset" id="submit" class="submit-button">
+                    Apagar dados
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="z-index">
+          <img src="img/java.png" alt="" width=30%>
+          <img src="img/sql.png" alt="" width=20%>
+          <img src="img/html-css-js.png" alt="" width=20%>
+        </div>
+    </main>
+    <footer>            
+            Atividade Prática P7PG08, realizada por Rafael Maneschy Paes.                      
+    </footer>            
+    
+</body>
+</html>

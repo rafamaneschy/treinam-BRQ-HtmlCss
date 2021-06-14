@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "verdana", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  margin: 0;
+  background-color: #334443 ;
+}
+
+img {
+  position: relative;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
+  color: darkorange;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.page-description {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.header {
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+input, button, select, textarea{
+  margin: 0;
+    
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto 0 auto;
+  max-width: 540px;
+  max-width: 720px;  
+}
+
+form {
+  background-color: #34656d ;
+  padding: 40px 10px;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.form-dev {
+  margin: 0 auto 20px auto;
+  padding: 4px;
+  z-index: 2;
+}
+
+.form-level {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 6px 12px;
+  background-clip: padding-box;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.form-level:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px white;
+}
+
+.input-radio, .input-checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+  outline: 0;
+}
+  
+.input-textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px white;
+  }
+
+button {
+  border: none;
+  color: darkorange;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: darkorange;
+  background-size: 200%;   
+  font-size: 18px;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-position: right;
+}
+
+#languages {
+  display: inline-flex;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.z-index {
+  z-index: 1;  
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+  }
